@@ -5,8 +5,8 @@
     import Name from "../components/Name.svelte"
     import Scroll from "../components/Scroll.svelte"
     import ScrollArrow from "../components/ScrollArrow.svelte"
-    import Experience from "../pages/Experience.svelte"
-    import Work from "../pages/Work.svelte"
+    import Experience from "../sections/Experience.svelte"
+    import Work from "../sections/Work.svelte"
 
 </script>
 
@@ -16,7 +16,7 @@
     <NavBar/>
     <div id=page-one>
     <Name/>
-    <p id="about">I'm Mel Marochov, a Graduate Data Scientist in the Rapid Prototyping Team at Ordnance Survey. Here's some more stuff about me because I'm a massive narcissist Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quia fugit animi sed mollitia dicta repellat assumenda nobis, vero sit distinctio alias veritatis saepe reprehenderit commodi, dolores debitis? Modi, sed!</p>
+    <p id="about">I'm Mel Marochov, a Graduate Data Scientist in the Rapid Prototyping Team at Ordnance Survey. I like skateboarding, wild swimming, and making stuff! I've been learning some pretty cool things from some pretty cool people, from a wee bit of Python to a fair amount of web development... but mainly just an outrageous number of keyboard shortcuts.</p>
     </div>
     <ScrollArrow/>
 </div>
@@ -49,6 +49,6 @@
     display: inline-block;
     text-align: left;
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lucida Sans Typewriter";
 }
 </style>
