@@ -49,6 +49,6 @@
     display: inline-block;
     text-align: left;
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lucida Sans Typewriter";
 }
 </style>

@@ -20,11 +20,13 @@
 
 <style>
   a {
-    padding: 12px 25px 12px 0px;
+    padding: 20px 40px 12px 0px;
     width: fit-content;
     border-radius: 3px;
     width: fit-content;
     color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
   }
 
   a:hover {
