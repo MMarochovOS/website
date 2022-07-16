@@ -6,12 +6,12 @@ import WorkEntry from "../components/WorkEntry.svelte";
 let team_members = [
         {
             title: "SEE_ICE",
-            image: "images/SEE_ICE.png",
+            image: "images/SEE_ICE.PNG",
             description: "During my masters I published a paper about using deep learning to classify satellite imagery containing marine-terminating glaciers in Greenland."
         },
         {
             title: "OS Machine Learning Model Hub",
-            image: "images/model_hub_logo.png",
+            image: "images/model_hub_logo.PNG",
             description: "I worked with the VisionAI and Research Teams at OS to create a model hub to facilitate ethical consideration, increase transparency and accountability, and reduce duplication of effort."
         },
         {
