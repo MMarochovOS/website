@@ -15,7 +15,7 @@
       <h1 class="neon-text">Melio</h1>
       <Mode>Toggle</Mode>
     </div>
-  <Typed strings={["I'm a web developer,", "and I like data science,", "but I'm not that good at it yet lol."]} loop=true typeSpeed=9 startDelay=1200 backSpeed=9 backDelay=2600 cursorChar= "|">
+  <Typed strings={["I love web development,", "and data science,", "I'm not that great at them yet,", "but I'm trying my best :)", "oh and also, I think the Earth is flat."]} loop=true typeSpeed=9 startDelay=1200 backSpeed=9 backDelay=2600 cursorChar= "|">
 	<h2 class="typing"></h2>
   </Typed>
 </div>
