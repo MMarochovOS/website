@@ -5,6 +5,7 @@
     import Name from "../components/Name.svelte"
     import Scroll from "../components/Scroll.svelte"
     import ScrollArrow from "../components/ScrollArrow.svelte"
+    import ScrollToTop from "../components/ScrollToTop.svelte"
     import Experience from "../sections/Experience.svelte"
     import Work from "../sections/Work.svelte"
 
@@ -28,6 +29,7 @@
 <section id="work">
     <Work/>
 </section>
+<ScrollToTop/>
 
 <style>
 
