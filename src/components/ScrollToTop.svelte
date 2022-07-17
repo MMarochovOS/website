@@ -3,7 +3,9 @@
     let hidden = true;
   
     function goTop() {
-      document.body.scrollIntoView();
+      document.body.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   
     function scrollContainer() {

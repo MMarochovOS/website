@@ -4039,10 +4039,10 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "arrow_circle_up";
     			attr_dev(span, "class", "material-symbols-outlined svelte-xozfiz");
-    			add_location(span, file$6, 27, 57, 602);
+    			add_location(span, file$6, 29, 57, 640);
     			attr_dev(div, "class", "back-to-top svelte-xozfiz");
     			toggle_class(div, "hidden", /*hidden*/ ctx[0]);
-    			add_location(div, file$6, 27, 2, 547);
+    			add_location(div, file$6, 29, 2, 585);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4086,7 +4086,7 @@ var app = (function () {
     }
 
     function goTop() {
-    	document.body.scrollIntoView();
+    	document.body.scrollIntoView({ behavior: 'smooth' });
     }
 
     function scrollContainer() {
